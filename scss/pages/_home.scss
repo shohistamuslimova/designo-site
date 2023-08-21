@@ -1,0 +1,67 @@
+main {
+  flex-grow: 1;
+}
+
+.coutry__label {
+  margin-top: 6.4rem;
+  display: flex;
+  align-items: center;
+}
+.order__coutry {
+  border-radius: 15px;
+  padding-left: 9.5rem;
+  padding-right: 19rem;
+  background-color: #fdf3f0;
+}
+.canada {
+  margin-bottom: 24px;
+  padding-top: 8.8rem;
+  color: #e7816b;
+  font-family: "Jost";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px; /* 120% */
+}
+.contact__with {
+  gap: 40px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 8.8rem;
+}
+.contact__first {
+  margin-right: 50px;
+  color: #333136;
+  font-family: "Jost";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+}
+.strong {
+  color: #333136;
+  font-family: "Jost";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 162.5% */
+}
+.contact__second {
+  color: #333136;
+  font-family: "Jost";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+}
+.xarita {
+}
+.xarita__page {
+}
+
+.ifrem__map {
+  margin-left: 30px;
+}
+.ifrem__canada {
+  border-radius: 15px;
+}

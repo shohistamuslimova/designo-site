@@ -1,0 +1,109 @@
+.footer {
+  background-color: $black-color;
+}
+.footer__container {
+  padding-top: 175px;
+  justify-content: space-between;
+  display: flex;
+}
+.container {
+}
+.site-logo {
+}
+.sitenav {
+}
+.sitenav-list {
+}
+.sitenav__item {
+}
+.footer-sitenav__link {
+  font-family: "Jost";
+  font-size: 14px;
+
+  font-weight: 400;
+  line-height: 14px; /* 100% */
+  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+  color: $white-color;
+}
+.footer__line {
+  border: none;
+  height: 1px;
+  flex-shrink: 0;
+  opacity: 0.1;
+  background: $white-color;
+
+  margin-top: 40px;
+}
+.design__wrapper {
+  margin-bottom: 75px;
+  margin-top: 3.1rem;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+.first__content {
+}
+.first__description {
+  color: $white-color;
+  font-family: "Jost";
+  font-size: 16px;
+  opacity: 0.5;
+  font-weight: 700;
+  line-height: 26px; /* 162.5% */
+}
+.second__description {
+  color: $white-color;
+  font-family: "Jost";
+  font-size: 16px;
+  opacity: 0.5;
+  font-weight: 700;
+  line-height: 26px;
+}
+.footer__content {
+  display: flex;
+  gap: 100px;
+}
+.second__content {
+}
+.socials {
+  display: flex;
+}
+.social__wrappers {
+  align-self: end;
+  display: flex;
+  gap: 16px;
+}
+.footer__social__item a:hover svg path {
+  fill: $light-peach;
+}
+.footer__social__facebook:hover {
+  fill: $light-peach;
+}
+.footer__social__youtube {
+}
+.footer__social__twitter {
+}
+.footer__social__pight {
+}
+.footer__social__instagram {
+}
+
+@media screen and (max-width: 720px) {
+  .first__description {
+    width: 226px;
+    margin-right: 20px;
+  }
+  .second__content {
+    width: 226px;
+  }
+  .footer__content {
+    gap: 0;
+  }
+  .design__wrapper {
+    flex-wrap: wrap;
+  }
+  .social__wrappers {
+  }
+}

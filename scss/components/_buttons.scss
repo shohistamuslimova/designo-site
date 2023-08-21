@@ -1,0 +1,26 @@
+.btn {
+  font-family: "Jost";
+  padding: 1.8rem 2.5rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 1;
+  text-transform: uppercase;
+  border-radius: 8px;
+  border: none;
+}
+.white-btn {
+  font-family: "Jost";
+  cursor: pointer;
+  background-color: $white-color;
+}
+
+.white-btn:hover {
+  background-color: $light-peach;
+}
+.peach-btn {
+  cursor: pointer;
+  background-color: $peach-color;
+}
+.peach-btn:hover {
+  background-color: $light-peach;
+}
